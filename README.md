@@ -1,7 +1,14 @@
 # Assessment
 
-## Run program
-docker run hello-world:1
+`src/main/java/org/example` -> code for this assessment
 
-## Unit Tests
-docker run hello-world:1 sh -c "java -cp Fyllo.jar org.junit.runner.JUnitCore org.example.MathOperationsTest" 
+`src/test/java/org/example` -> Unit Tests
+
+### Build docker
+`docker build -t program:1.0 .`
+
+### Run program
+`docker run program:1.0`
+
+### Unit Tests
+`mvn test`
