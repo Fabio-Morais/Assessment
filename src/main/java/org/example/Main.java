@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class Main {
     private static Integer[] generateData(int num) {
         Integer[] randomArray = new Integer[num];
-        int min = 0, max = 100;
+        int min = 0, max = 20;
 
         for (int i = 0; i < num; i++) {
             int randomNum = ThreadLocalRandom.current().nextInt(min, max + 1);

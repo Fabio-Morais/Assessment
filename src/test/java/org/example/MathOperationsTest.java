@@ -37,6 +37,15 @@ public class MathOperationsTest {
         assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{6, 8, 8, 7, 2, 5}), 48);
         assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{1, 9, 2, 4}), 36);
         assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{3, 1}), 3);
+        assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{3, 6, 9, 12, 1}), 108);
+        assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{11, 9, 2, 14, 2}), 126);
+        assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{4, 18, 11, 15, 10, 5, 16}), 288);
+        assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{3, 1, 3, 9, 9}), 81);
+        assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{2, 2, 2, 2, 2, 3}), 6);
+        assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{3, 3, 3, 3, 3, 3}), 9);
+        assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{2}), 0);
+        assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{3}), 0);
+        assertEquals("Regular data", mathOperations.maximumProduct(new Integer[]{3,2}), 6);
     }
 
     @Test
